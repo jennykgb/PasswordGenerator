@@ -12,6 +12,8 @@ body {
     background-color: #1F2937;
     margin-top:  64px;
     padding: 0;
+    border: 10px solid #0c4a6e;
+    border-radius: 20px;
 }
 .center{
     margin: 0 52px;
@@ -58,11 +60,14 @@ button{
     width: 180px;
     height: 32px;
     border-radius: 6px;
-    text-align: center;
-    padding: 4px 16px;
+    padding: 4px 16px 4px 16px;
     font-size: 16px;
     font-weight: 500;
-    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
 }
 
 .greentext{
