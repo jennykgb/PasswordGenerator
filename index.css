@@ -9,7 +9,7 @@ body {
 .container{
     height: 550px;
     width: 550px;
-    background-color: #1F2937;
+    background-color: #4b5563;
     margin-top:  64px;
     padding: 0;
     border: 10px solid #0c4a6e;
@@ -34,17 +34,17 @@ p{
 
 
 button{
-    background-color: #4adf86;
+    background-color: #8b5cf6;
     color: #ffffff;
     height: 42px;
     width: 191px;
     border-radius: 6px;
     font-weight: 500;
     font-size: 16px;
-    margin: 31px 0 35px 0;
+    margin: 15px 0 35px 0;
 }
 .line{
-    border-bottom: 1px solid #2F3e53 ;
+    border-bottom: 1px solid #374151 ;
     margin:0;
     width: 446px;
 }
@@ -56,7 +56,7 @@ button{
     margin-top: 35px;
 }
 .passSpace{
-    background-color: #273549;
+    background-color: #374151;
     width: 180px;
     height: 32px;
     border-radius: 6px;
@@ -71,13 +71,20 @@ button{
 }
 
 .greentext{
-    color: #4adf86;
+    color: #8b5cf6;
 }
 
 .passwordSettings{
-    margin: 20px 0
+    margin: 20px 0;
+    font-size: 12px;
 }
 
 input{
-    background-color: #273549;
+    background-color: #374151;
+    color:#8b5cf6;
+    border: 1px solid #ffffff;
+}
+
+.length{
+    margin: 0 0 10px 0;
 }
