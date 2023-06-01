@@ -13,11 +13,19 @@
             <div class="center">
                 <h1>Generate a <span class="greentext">random password</span></h1>
                 <p class="message">Never us an insecure password again.</p>
+                <div class="passwordSettings">
+                    <label for="quantity">Password Length: </label>
+                    <input type="number" id="quantity" name="quantity" placeholder="(8-20)" min="8" max="20" step="1">
+                    <label for="symbols">Symbols </label>
+                    <input type="checkbox" id="symbols">
+                    <label for="numbers">Numbers </label>
+                    <input type="checkbox" id="numbers">
+                </div>
                 <button onclick="passwordGenerator()">Generate passwords</button>
                 <p class="line"></p>
                 <div class="passwords">
-                    <p class="greentext passSpace" id="first-Pass"></p>
-                    <p class="greentext passSpace" id="second-Pass"></p>
+                    <p onclick="copyText('first-Pass')" class="greentext passSpace" id="first-Pass"></p>
+                    <p onclick="copyText('second-Pass')" class="greentext passSpace" id="second-Pass"></p>
                 </div>
             </div>
             

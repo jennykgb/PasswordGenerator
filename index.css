@@ -41,7 +41,7 @@ button{
     border-radius: 6px;
     font-weight: 500;
     font-size: 16px;
-    margin: 51px 0 35px 0;
+    margin: 31px 0 35px 0;
 }
 .line{
     border-bottom: 1px solid #2F3e53 ;
@@ -72,4 +72,12 @@ button{
 
 .greentext{
     color: #4adf86;
+}
+
+.passwordSettings{
+    margin: 20px 0
+}
+
+input{
+    background-color: #273549;
 }
